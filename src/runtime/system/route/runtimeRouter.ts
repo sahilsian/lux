@@ -1,7 +1,7 @@
 
 // Runtime router for dispatching events to the correct components
-import type {baseWebEvent} from "../../models/webEvents/baseWebEvent.ts";
-import {eventBus} from "../bus/eventBus.ts";
+import type {baseWebEvent} from "../../models/webEvents/baseWebEvent";
+import {eventBus} from "../bus/eventBus";
 let initialized = false;
 // Command Registry
 const handlers: Record<string, (event: any) => void> = {

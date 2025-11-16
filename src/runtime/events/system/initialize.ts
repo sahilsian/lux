@@ -1,7 +1,7 @@
 // High level macro event for running the application
-import { RegisterBaseWebEvent } from "../../models/webEvents/decorator.ts";
+import { RegisterBaseWebEvent } from "../../models/webEvents/decorator";
 import type {baseWebEvent} from "../../models/webEvents/baseWebEvent.ts";
-import {eventBus} from "../../system/bus/eventBus.ts";
+import {eventBus} from "../../system/bus/eventBus";
 
 export interface SystemInitializePayload {
     environment?: "development" | "staging" | "production";

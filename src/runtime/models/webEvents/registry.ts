@@ -1,4 +1,4 @@
-import type {baseWebEvent} from "./baseWebEvent.ts";
+import type {baseWebEvent} from "./baseWebEvent";
 
 type BaseWebEventConstructor = new (...args: any[]) => baseWebEvent;
 

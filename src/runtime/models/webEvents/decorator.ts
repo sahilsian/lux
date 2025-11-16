@@ -1,4 +1,4 @@
-import { registerBaseWebEvent } from "./registry.ts";
+import { registerBaseWebEvent } from "./registry";
 
 export const RegisterBaseWebEvent = (type:string) => {
     return (target: any) => {
